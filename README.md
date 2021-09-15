@@ -4,6 +4,9 @@ id 'kotlin-android-extensions'
 
 }
 
+  .................................................
+ ////////// Volley Dependency ////////////////////
+'''''''''''''''''''''''''''''''''''''''''''''''''
 implementation("com.android.volley:volley:1.2.0")
 
 
@@ -35,8 +38,7 @@ buildFeatures{
  ////////// Life Cycle Dependency ////////////////
 '''''''''''''''''''''''''''''''''''''''''''''''''
 
-def lifecycle_version = "2.4.0-alpha03"
-
+	def lifecycle_version = "2.4.0-alpha03"
         // ViewModel
         implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
         // LiveData
@@ -66,9 +68,7 @@ def lifecycle_version = "2.4.0-alpha03"
   ...........................................
  ////////// Room Dependency ////////////////
 '''''''''''''''''''''''''''''''''''''''''''
-
-def room_version = "2.3.0"
-
+    def room_version = "2.3.0"
     implementation "androidx.room:room-runtime:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
     implementation "androidx.room:room-ktx:$room_version"
