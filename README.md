@@ -74,3 +74,14 @@
 	implementation "androidx.room:room-runtime:$room_version"
 	kapt "androidx.room:room-compiler:$room_version"
 	implementation "androidx.room:room-ktx:$room_version"
+	
+	
+
+
+  ...................................................
+ ////////// Work Manager Dependency ////////////////
+'''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+	implementation "androidx.work:work-runtime:2.6.0"
+
